@@ -1,0 +1,115 @@
+#page-niver-mes {
+    width: 100%;
+    height: auto;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.profile-container-nvmes{
+    display: grid;
+    grid-template-columns:repeat(6, auto);
+    /*grid-gap: 20px;*/
+    margin-top: 10vh;
+    margin-bottom: 6vh;
+    /*z-index: -30;*/
+    text-align: center; 
+   
+    
+}
+
+.profile-container-nvmes ul{
+    list-style:none;
+    /*background: rgba(91, 100, 180, 0.06);
+    backdrop-filter: blur(2px);*/
+    background: #fff;
+    width: 290px;
+    height: 300px;
+    border-radius: 8px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.profile-container-nvmes ul li{
+    display: inline-block;
+       
+}
+
+
+.profile-container-nvmes ul li div{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.profile-container-nvmes ul li div img, .teste{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.profile-container-nvmes ul li strong{
+    display: block;
+    margin-top: 0.4rem;
+    /*margin-left: 1rem;*/
+    margin-bottom: 1px;
+    color: #81B45B;
+    font: 700 12px Raleway;
+}
+
+.profile-container-nvmes ul li strong + p{
+    margin-top: 3px;
+}
+
+/*
+.profile-container-nvmes ul li p + p{
+    margin-top: 10px;
+}*/
+
+.profile-container-nvmes ul li p{
+    color: #7C7B7B;
+    line-height: 19px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-style: Medium;
+    font-weight: 700;
+}
+
+.profile-container-nvmes  .linha{
+    border-bottom: 0.18rem solid  #7C7B7B;;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nome-funcionario{
+    position: absolute;
+    bottom: 0.1rem;
+
+    display: flex;
+    justify-content: center;
+    border: 0;
+    border-radius: 8px;
+    background-color: #1B5A3D;
+    font: 600 14px Roboto;
+    margin-left: 2%;
+    margin-bottom: 0.3rem;
+    width: 96%;
+    height: 3rem;
+}
+
+.nome-funcionario strong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-family: Raleway;
+    font-weight: 700;
+    font-style: Thin;
+}

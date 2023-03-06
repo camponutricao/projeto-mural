@@ -1,0 +1,76 @@
+#page-home{ 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 12rem;
+    
+}
+
+#page-home p, strong{ 
+    display: flex;
+    align-items: center;
+    text-align: center;  
+     
+}
+
+#page-home strong, h2{ 
+     
+    font-family: 'Raleway';
+    font-style: Thin;
+    font-weight: 900;
+    font-size: 36px;
+    color: #81B45B;
+    margin-top: 1rem;
+}
+
+
+#page-home p{    
+
+    font-family: 'Open Sans';
+    font-style: Medium;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 25.6px;
+    display: flex;
+    text-align:center;
+    margin-top: 1rem;
+    
+}
+
+#page-home img {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.missao {
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    /*background-color: red;*/
+    width: 400px;
+    height: 180px;
+    margin-left: 120px;
+}
+.visao {
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    /*background-color:green;*/
+    width: 400px;
+    height: 180px;
+}
+
+.valores {
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    /*background-color:yellow;*/
+    width: 400px;
+    height: 180px;
+    margin-right: 120px;
+}
+
