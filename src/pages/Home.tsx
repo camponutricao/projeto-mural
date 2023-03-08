@@ -11,7 +11,7 @@ export function Home(){
     const [time, setTime] = useState(3);
     const timeout = useRef(0);
     const navigate = useNavigate();
-
+    
     useEffect(() =>{
         clearTimeout(timeout.current);
 
@@ -20,6 +20,7 @@ export function Home(){
         }, 2000);
 
         if(time <= 0){
+            
              Data.nivermes.map((nvmesInfo) => {
                 
                  if(parseInt(nvmesInfo.matricula) > 0) {

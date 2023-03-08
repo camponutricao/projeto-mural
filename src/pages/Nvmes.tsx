@@ -9,7 +9,7 @@ export function Nvmes(){
     const [time, setTime] = useState(3);
     const timeout = useRef(0);
     const navigate = useNavigate();
-
+    
     useEffect(() =>{
         clearTimeout(timeout.current);
 

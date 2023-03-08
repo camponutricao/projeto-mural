@@ -10,9 +10,12 @@ import { Noticias } from './pages/Noticias';
 
 
 function App() {
+ 
   return (
+    
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='/mural'>
+         
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='nivermes' element={<Nvmes />} />
