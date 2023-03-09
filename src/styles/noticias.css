@@ -24,7 +24,7 @@
 }
 .head-card {
     width: 25rem;
-    height: 50px;
+    height: 70px;
     /*background: #81B45B;*/
     background: #1B5A3D;
     border-radius: 8px;
@@ -38,7 +38,7 @@
     font-family: 'Raleway';
     font-style: Thin;
     font-weight: 900;
-    font-size: 26px;
+    font-size: 30px;
     color: #fff;
 }
 
@@ -48,7 +48,7 @@
     font-family: 'Open Sans';
     font-style: Thin;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 26px;
     text-align: justify;
     margin-top: 5px;
     margin-bottom: 20px;

@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import Data from '../files/Mural_Campo_.json';
 
 export function Noticias(){
-     const [time, setTime] = useState(3);
+    const [time, setTime] = useState(3);
     const timeout = useRef(0);
     const navigate = useNavigate();
 

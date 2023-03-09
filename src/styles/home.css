@@ -19,7 +19,7 @@
     font-family: 'Raleway';
     font-style: Thin;
     font-weight: 900;
-    font-size: 36px;
+    font-size: 56px;
     color: #81B45B;
     margin-top: 1rem;
 }
@@ -30,8 +30,8 @@
     font-family: 'Open Sans';
     font-style: Medium;
     font-weight: 500;
-    font-size: 23px;
-    line-height: 25.6px;
+    font-size: 35px;
+    line-height: 45.6px;
     display: flex;
     text-align:center;
     margin-top: 1rem;
@@ -42,7 +42,8 @@
     display: flex;
     align-items: center;
     text-align: center;
-    
+    width: 350px;
+    height: 350px;
 }
 
 
@@ -50,8 +51,9 @@
     display:flex;
     align-items:center;
     flex-direction: column;
+    
     /*background-color: red;*/
-    width: 400px;
+    width: 500px;
     height: 180px;
     margin-left: 120px;
 }
@@ -60,7 +62,7 @@
     align-items:center;
     flex-direction: column;
     /*background-color:green;*/
-    width: 400px;
+    width: 500px;
     height: 180px;
 }
 
@@ -69,7 +71,7 @@
     align-items:center;
     flex-direction: column;
     /*background-color:yellow;*/
-    width: 400px;
+    width: 500px;
     height: 180px;
     margin-right: 120px;
 }
