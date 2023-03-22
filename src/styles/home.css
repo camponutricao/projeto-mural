@@ -3,18 +3,19 @@
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    margin-top: 12rem;
-    
+    margin-top: 18rem;
+   
 }
 
-#page-home p, strong{ 
+#page-home p strong{
+
     display: flex;
     align-items: center;
     text-align: center;  
      
 }
 
-#page-home strong, h2{ 
+#page-home strong h2{ 
      
     font-family: 'Raleway';
     font-style: Thin;

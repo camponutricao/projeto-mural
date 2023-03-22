@@ -17,7 +17,7 @@ export function Home(){
 
         timeout.current = +global.setTimeout(() => {
         setTime((t) => t - 1); 
-        }, 2000);
+        }, 7000);
 
         if(time <= 0){
             

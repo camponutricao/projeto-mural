@@ -1,0 +1,20 @@
+#page-content {
+    background-color: #81B45B;
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#page-content .content-img{
+    width: 100%;
+    height: auto;
+    
+}
+
+#page-content .content-img img {
+  width: 100%;
+  height: 92vh;
+  
+}

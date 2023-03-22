@@ -14,10 +14,10 @@ export function Noticias(){
 
         timeout.current = +global.setTimeout(() => {
         setTime((t) => t - 1); 
-        }, 5000);
+        }, 7000);
 
         if(time <= 0){
-            navigate('/');
+            navigate('/campanha');
         }
         return() => {
             clearTimeout(timeout.current);

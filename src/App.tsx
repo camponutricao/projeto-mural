@@ -7,6 +7,7 @@ import { Vagas } from './pages/Vagas'
 import { Nvmes } from './pages/Nvmes'
 import { Nvdia } from './pages/Nvdia';
 import { Noticias } from './pages/Noticias';
+import { Marketing } from './pages/Marketing';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path='niverdia' element={<Nvdia />} />
           <Route path='vagas' element={<Vagas />} />
           <Route path='noticias' element={<Noticias />} />
+          <Route path='campanha' element={<Marketing />} />
         </Routes>
       </BrowserRouter>
     
