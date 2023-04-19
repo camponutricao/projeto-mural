@@ -1,5 +1,5 @@
 import '../styles/mkt.css'
-import Image1 from '../assets/images/img1.jpg'
+import Image1 from '../files/img1.jpg'
 import { Menu } from '../components/Menu'
 import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
@@ -27,7 +27,7 @@ export function Marketing (){
     return(
         <div id='page-content'>
             
-            <Menu TituloPage='Incentivos Campo' />
+            <Menu TituloPage='Campanhas' />
             <div className='content-img'>
             <img src={Image1} alt="" />
             </div>
